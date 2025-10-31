@@ -1,1 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Privacy Policy — SoulFoodiePlus</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://YOUR-USERNAME.github.io/soulfoodieplus-site/privacy.html">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-wrap">
+      <a class="brand" href="/"><img src="/images/app-icon.png" alt="" width="40" height="40"><span>SoulFoodiePlus</span></a>
+    </div>
+  </header>
 
+  <main class="container section">
+    <h1>Privacy Policy</h1>
+    <p>We value your privacy. SoulFoodiePlus does not sell personal data. Limited usage analytics may be used to improve the app experience.</p>
+    <h2>Data We Collect</h2>
+    <ul>
+      <li>Basic app usage events (aggregate, non-personalized).</li>
+      <li>Crash diagnostics to improve stability.</li>
+    </ul>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:hello@soulfoodie.app">hello@soulfoodie.app</a></p>
+    <p>Last updated: <span id="year"></span></p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container legal"><small>© <span id="year2"></span> SoulFoodiePlus</small></div>
+  </footer>
+  <script>
+    const y = new Date().getFullYear();
+    document.getElementById('year').textContent = y;
+    document.getElementById('year2').textContent = y;
+  </script>
+</body>
+</html>
